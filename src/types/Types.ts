@@ -6,9 +6,6 @@ export default interface BodyProps {
   resume: string;
   last_update: string;
 }
-
-
-
 export const InitialBodyCard:BodyProps ={
   name:"",
   department: "",
