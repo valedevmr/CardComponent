@@ -15,6 +15,7 @@ const BlogCard = ({ profileData }: BlogCardProps) => {
         last_update={profileData.last_update}
         name={profileData.name}
         resume={profileData.resume}
+        
       />
     </div>
   );

@@ -1,4 +1,4 @@
-import BodyProps from "../types/Types";
+
 
 let dummyData= [
   {

@@ -1,4 +1,4 @@
-import React from "react";
+
 import BodyProps from "../types/Types";
 
 const ProfileBody = ({

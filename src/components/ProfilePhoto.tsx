@@ -1,5 +1,5 @@
 interface ProfilePros {
-  profile_department: string;
+  profile_department?: string;
 }
 
 const ProfilePhoto = ({ profile_department }: ProfilePros) => {
