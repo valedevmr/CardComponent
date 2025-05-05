@@ -17,7 +17,7 @@ function App() {
   }
 
   return (
-    <div className="flex justify-center items-center min-h-screen">
+    <div className="flex justify-center items-center min-h-screen box-content">
       <BlogCard profileData={dataCard}/>
     </div>
   );

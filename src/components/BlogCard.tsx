@@ -7,7 +7,7 @@ interface BlogCardProps {
 }
 const BlogCard = ({ profileData }: BlogCardProps) => {
   return (
-    <div className="w-full md:w-1/2 lg:w-[15%] bg-white p-0 border border-transparent rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+    <div className="w-[95%] md:w-1/2 lg:w-[15%] bg-white p-0 border border-transparent rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
       <ProfilePhoto profile_department={profileData.profile_department} />
       <ProfileBody
         department={profileData.department}
